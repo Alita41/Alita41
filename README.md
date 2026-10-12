@@ -61,6 +61,10 @@ A concurrent **C++17 key-value storage engine** with a multithreaded TCP server,
 
 Software engineering, ML engineering, AI infrastructure, search/retrieval, backend systems, and developer tooling.
 
+## Portfolio
+
+[Explore my engineering portfolio](https://alita41.github.io/profile-website/) — project case studies, technical skills, and contact details.
+
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/talat-zehra-ali)

@@ -32,6 +32,17 @@ An AI engineering knowledge assistant for **source-cited RAG over repositories, 
 - FastAPI + CLI interfaces
 - Dockerized runtime, automated tests, and CI
 
+### [NovaKV](https://github.com/Alita41/novakv)
+
+A concurrent **C++17 key-value storage engine** with a multithreaded TCP server, sharded `shared_mutex` synchronization, TTL expiration, an LRU read cache, and checksummed write-ahead logging with restart recovery.
+
+**Highlights**
+- Fixed TCP worker pool and a compact command protocol
+- Sharded in-memory key/value store with concurrent reads and writes
+- Persistent TTL, bounded LRU caching, and WAL checkpoint compaction
+- C++ unit and real TCP/restart integration tests
+- Reproducible 30K-request local latency/throughput benchmark
+
 ## What I work on
 
 - **Search & information retrieval** — inverted indexes, BM25, dense retrieval, hybrid ranking, evaluation

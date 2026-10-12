@@ -2,9 +2,9 @@
 
 **Software Engineer focused on machine learning, distributed systems, and information retrieval.**
 
-I'm a Computer Science graduate from Oregon State University interested in building reliable backend systems and practical AI/ML infrastructure. My work spans C++, Python, search and retrieval, concurrency, APIs, and applied machine learning.
+I'm a Computer Science graduate from Oregon State University interested in building reliable backend systems and practical AI/ML infrastructure. My work spans C++, Python, search and retrieval, APIs, developer tooling, and applied machine learning.
 
-## Featured project
+## Featured projects
 
 ### [AtlasSearch](https://github.com/Alita41/atlassearch)
 
@@ -19,19 +19,32 @@ A hybrid Urdu/English search and retrieval engine built around a custom **C++17 
 - Dockerized development stack and automated tests
 - Reproducible 100K-document synthetic scale benchmark
 
+### [DevLens](https://github.com/Alita41/devlens)
+
+An AI engineering knowledge assistant for **source-cited RAG over repositories, documentation, and GitHub context**, with structured issue triage and explicit human approval before repository write actions.
+
+**Highlights**
+- Local and GitHub repository ingestion
+- Vector retrieval over chunked code and documentation
+- Source-cited answers with citation validation
+- Structured issue triage with confidence and suggested labels
+- Optional OpenAI Responses API provider
+- FastAPI + CLI interfaces
+- Dockerized runtime, automated tests, and CI
+
 ## What I work on
 
 - **Search & information retrieval** — inverted indexes, BM25, dense retrieval, hybrid ranking, evaluation
-- **Systems engineering** — concurrency, TCP networking, caching, persistence, performance benchmarking
-- **Applied AI/ML** — PyTorch, transformers, NLP, RAG, vector search, model evaluation
+- **AI engineering** — RAG, retrieval pipelines, grounded generation, evaluation, developer tooling
+- **Systems engineering** — concurrency, caching, persistence, performance benchmarking
 - **Backend engineering** — Python APIs, PostgreSQL, Redis, Docker, Linux
 
 ## Tech
 
 **Languages:** Python · C++ · JavaScript · SQL  
-**AI/ML:** PyTorch · TensorFlow/TFLite · scikit-learn · BERT/Transformers · FAISS · LangChain  
-**Systems:** Linux · Docker · TCP/IP · multithreading · Redis · PostgreSQL  
-**Web:** REST APIs · React · Node.js · Django/Flask
+**AI/ML:** PyTorch · Transformers · FAISS · vector search · RAG  
+**Systems:** Linux · Docker · Redis · PostgreSQL · TCP/IP · multithreading  
+**Web:** FastAPI · Flask · REST APIs · React · Node.js
 
 ## Currently interested in
 

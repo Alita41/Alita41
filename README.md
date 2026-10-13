@@ -43,17 +43,29 @@ A concurrent **C++17 key-value storage engine** with a multithreaded TCP server,
 - C++ unit and real TCP/restart integration tests
 - Reproducible 30K-request local latency/throughput benchmark
 
+### [EdgeVision](https://github.com/Alita41/edgevision)
+
+An **edge-AI perception and monitoring platform** for sign-like objects, featuring OpenCV region proposals, optional TensorFlow Lite classification, temporal tracking, uncertainty gating, and an operator dashboard.
+
+**Highlights**
+- Camera/video and synthetic-demo processing with bounded frame queues
+- Candidate tracking and multi-frame confirmation for event alerts
+- Optional TFLite inference, training/export scripts, and held-out evaluation tools
+- SQLite event logging and responsive FastAPI monitoring console
+- Automated tests and reproducible synthetic CPU benchmarks
+
 ## What I work on
 
 - **Search & information retrieval** — inverted indexes, BM25, dense retrieval, hybrid ranking, evaluation
 - **AI engineering** — RAG, retrieval pipelines, grounded generation, evaluation, developer tooling
+- **Computer vision & edge ML** — OpenCV, TensorFlow Lite, on-device inference, tracking
 - **Systems engineering** — concurrency, caching, persistence, performance benchmarking
 - **Backend engineering** — Python APIs, PostgreSQL, Redis, Docker, Linux
 
 ## Tech
 
 **Languages:** Python · C++ · JavaScript · SQL  
-**AI/ML:** PyTorch · Transformers · FAISS · vector search · RAG  
+**AI/ML:** PyTorch · Transformers · FAISS · vector search · RAG · OpenCV · TensorFlow Lite  
 **Systems:** Linux · Docker · Redis · PostgreSQL · TCP/IP · multithreading  
 **Web:** FastAPI · Flask · REST APIs · React · Node.js
 

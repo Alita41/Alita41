@@ -1,82 +1,33 @@
 # Talat Zehra Ali
 
-**Software Engineer focused on machine learning, distributed systems, and information retrieval.**
+**Software engineer · C++ and Python · search, backend systems, and applied machine learning**
 
-I'm a Computer Science graduate from Oregon State University interested in building reliable backend systems and practical AI/ML infrastructure. My work spans C++, Python, search and retrieval, APIs, developer tooling, and applied machine learning.
+B.S. Computer Science, Oregon State University (2026).
 
-## Featured projects
+I build software to understand the details behind it: how retrieval systems rank documents, how concurrent services handle state, and how models fit into real applications. These repositories include source code, tests, run instructions, and notes on the implementation's limitations.
 
-### [AtlasSearch](https://github.com/Alita41/atlassearch)
+## Projects
 
-A hybrid Urdu/English search and retrieval engine built around a custom **C++17 BM25 core**, trie autocomplete, a Python REST API, PostgreSQL metadata, Redis caching, and an optional **multilingual-E5 + FAISS** dense-retrieval path fused with BM25 using Reciprocal Rank Fusion.
+### [AtlasSearch](https://github.com/Alita41/atlassearch) — Search and information retrieval
 
-**Highlights**
-- Custom inverted index and BM25 ranking engine in C++17
-- Top-K heap retrieval and trie autocomplete
-- Python ↔ C++ integration and REST API
-- PostgreSQL metadata + Redis caching
-- Dense retrieval with multilingual-E5 and FAISS
-- Dockerized development stack and automated tests
-- Reproducible 100K-document synthetic scale benchmark
+A C++17 inverted index with BM25 ranking, top-K retrieval, and trie autocomplete, exposed through a Python API. Includes Redis caching, PostgreSQL metadata, optional multilingual-E5/FAISS hybrid search, and a synthetic 100K-document benchmark.
 
-### [DevLens](https://github.com/Alita41/devlens)
+### [DevLens](https://github.com/Alita41/devlens) — Repository knowledge assistant
 
-An AI engineering knowledge assistant for **source-cited RAG over repositories, documentation, and GitHub context**, with structured issue triage and explicit human approval before repository write actions.
+Indexes local files and GitHub repository content, including issues and pull-request descriptions. Provides source-cited answers and issue triage through a CLI and FastAPI service. The default retriever uses deterministic feature hashing; FAISS and OpenAI generation are optional. GitHub access is read-only.
 
-**Highlights**
-- Local and GitHub repository ingestion
-- Vector retrieval over chunked code and documentation
-- Source-cited answers with citation validation
-- Structured issue triage with confidence and suggested labels
-- Optional OpenAI Responses API provider
-- FastAPI + CLI interfaces
-- Dockerized runtime, automated tests, and CI
+### [NovaKV](https://github.com/Alita41/novakv) — Concurrent storage service
 
-### [NovaKV](https://github.com/Alita41/novakv)
+A single-node C++17 key-value server with TCP connections, sharded locking, TTL, an LRU cache, and a checksummed write-ahead log. Includes recovery tests, checkpoint compaction, and a reproducible client-side benchmark.
 
-A concurrent **C++17 key-value storage engine** with a multithreaded TCP server, sharded `shared_mutex` synchronization, TTL expiration, an LRU read cache, and checksummed write-ahead logging with restart recovery.
+### [EdgeVision](https://github.com/Alita41/edgevision) — Edge computer vision
 
-**Highlights**
-- Fixed TCP worker pool and a compact command protocol
-- Sharded in-memory key/value store with concurrent reads and writes
-- Persistent TTL, bounded LRU caching, and WAL checkpoint compaction
-- C++ unit and real TCP/restart integration tests
-- Reproducible 30K-request local latency/throughput benchmark
+An OpenCV pipeline for sign-region proposals, object tracking, and multi-frame event confirmation, with SQLite event history and a FastAPI monitoring dashboard. Includes an optional TensorFlow Lite classification path, training/evaluation scripts, and a runnable synthetic demo.
 
-### [EdgeVision](https://github.com/Alita41/edgevision)
+## Tools and languages
 
-An **edge-AI perception and monitoring platform** for sign-like objects, featuring OpenCV region proposals, optional TensorFlow Lite classification, temporal tracking, uncertainty gating, and an operator dashboard.
+C++ · Python · JavaScript · SQL · Linux · Docker · FastAPI · Flask · PostgreSQL · Redis · FAISS · OpenCV · TensorFlow Lite
 
-**Highlights**
-- Camera/video and synthetic-demo processing with bounded frame queues
-- Candidate tracking and multi-frame confirmation for event alerts
-- Optional TFLite inference, training/export scripts, and held-out evaluation tools
-- SQLite event logging and responsive FastAPI monitoring console
-- Automated tests and reproducible synthetic CPU benchmarks
+## Links
 
-## What I work on
-
-- **Search & information retrieval** — inverted indexes, BM25, dense retrieval, hybrid ranking, evaluation
-- **AI engineering** — RAG, retrieval pipelines, grounded generation, evaluation, developer tooling
-- **Computer vision & edge ML** — OpenCV, TensorFlow Lite, on-device inference, tracking
-- **Systems engineering** — concurrency, caching, persistence, performance benchmarking
-- **Backend engineering** — Python APIs, PostgreSQL, Redis, Docker, Linux
-
-## Tech
-
-**Languages:** Python · C++ · JavaScript · SQL  
-**AI/ML:** PyTorch · Transformers · FAISS · vector search · RAG · OpenCV · TensorFlow Lite  
-**Systems:** Linux · Docker · Redis · PostgreSQL · TCP/IP · multithreading  
-**Web:** FastAPI · Flask · REST APIs · React · Node.js
-
-## Currently interested in
-
-Software engineering, ML engineering, AI infrastructure, search/retrieval, backend systems, and developer tooling.
-
-## Portfolio
-
-[Explore my engineering portfolio](https://alita41.github.io/profile-website/) — project case studies, technical skills, and contact details.
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/talat-zehra-ali)
+[Portfolio](https://alita41.github.io/profile-website/) · [LinkedIn](https://www.linkedin.com/in/talat-zehra-ali-36394a257)
